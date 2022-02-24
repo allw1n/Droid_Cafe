@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Droid Cafe</string>
+    <string name="droid_desserts">Droid Desserts</string>
+    <string name="donuts">Donuts are glazed and sprinkled with candy.</string>
+    <string name="ice_cream_sandwiches">Ice cream sandwiches have chocolate wafers and vanilla filling.</string>
+    <string name="froyo">FroYo is premium self-serve frozen yogurt.</string>
+    <string name="donut_order">You ordered a donut.</string>
+    <string name="froyo_order">You ordered a froyo.</string>
+    <string name="ice_cream_order">You ordered an ice cream sandwich.</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="note">Note</string>
+    <string name="choose_delivery_method">Choose delivery method:</string>
+    <string name="same_day_messenger_service">Same day messenger service</string>
+    <string name="next_day_ground_delivery">Next day ground delivery</string>
+    <string name="pick_up">Pick Up</string>
+    <string name="contact">Contact</string>
+    <string name="order">Order</string>
+    <string name="status">Status</string>
+    <string name="favourites">Favourites</string>
+    <string name="copy">Copy</string>
+    <string name="share">Share</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="text_plain">text/plain</string>
+    <string name="blank_sentence">                                        </string>
+    <string name="enter_description">Enter Description</string>
+    <string name="pick_delivery_date">Pick Delivery Date</string>
+    <string name="date">Date</string>
+    <string name="pick_up_time">Pick Up Time</string>
+    <string name="pick_up_date">Pick Up Date</string>
+    <string name="time">Time</string>
+    <string name="your_order_details">Your order details</string>
+    <string-array name="phoneType">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+    </string-array>
+</resources>
