@@ -74,14 +74,15 @@ public class OrderActivity extends AppCompatActivity implements AdapterView.OnIt
                 String putDate = savedInstanceState.getString("set_date");
                 String putTime = savedInstanceState.getString("set_time");
 
-                pickUpDateText.setText(putDate);
-                fullDate = putDate;
+                if (putDate != null) {
+                    pickUpDateText.setText(putDate);
+                    fullDate = putDate;
+                }
 
-                pickUpTimeText.setText(putTime);
-                fullTime = putTime;
-
-                pickUpDateText.setVisibility(View.VISIBLE);
-                pickUpTimeText.setVisibility(View.VISIBLE);
+                if (putTime != null) {
+                    pickUpTimeText.setText(putTime);
+                    fullTime = putTime;
+                }
             }
         }
 
