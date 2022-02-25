@@ -211,12 +211,10 @@ public class OrderActivity extends AppCompatActivity implements AdapterView.OnIt
             strMinute = minute + " AM";
             strHour = Integer.toString(hour);
         } else {
-            if (hour == 12) {
-                strHour = Integer.toString(hour);
-            } else {
+            if (hour != 12) {
                 hour -= 12;
-                strHour = Integer.toString(hour);
             }
+            strHour = Integer.toString(hour);
             strMinute = minute + " PM";
         }
 
