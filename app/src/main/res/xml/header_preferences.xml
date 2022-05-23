@@ -4,12 +4,13 @@
         app:fragment="com.example.droidcafe.SettingsActivity$MessagesFragment"
         app:icon="@drawable/messages"
         app:key="messages_header"
-        app:title="@string/messages_header" />
+        app:title="@string/messages_header"
+        app:allowDividerBelow="true"/>
 
     <Preference
         app:fragment="com.example.droidcafe.SettingsActivity$SyncFragment"
         app:icon="@drawable/sync"
         app:key="sync_header"
-        app:title="@string/sync_header" />
+        app:title="@string/sync_header" app:allowDividerAbove="true"/>
 
 </PreferenceScreen>
