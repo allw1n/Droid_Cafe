@@ -21,5 +21,7 @@
 
     <style name="Theme.DroidCafe.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <style name="Theme.DroidCafe.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.DroidCafe.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" >
+        <item name="android:textColor">@color/black</item>
+    </style>
 </resources>
