@@ -10,15 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DroidCafe">
         <activity
-            android:name=".OrderActivity"
-            android:exported="false"
-            android:label="@string/your_order_details"
-            android:parentActivityName="com.example.droidcafe.MainActivity"
-            android:theme="@style/Theme.DroidCafe.NoActionBar">
-            <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.droidcafe.MainActivity"/>
-        </activity>
-        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.DroidCafe.NoActionBar">
@@ -28,6 +19,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".OrderActivity"
+            android:exported="false"
+            android:label="@string/your_order_details"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.DroidCafe.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.droidcafe.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>

@@ -110,6 +110,10 @@ public class MainActivity extends AppCompatActivity {
             giveOrder();
             return true;
         }
+        if (id == R.id.action_settings) {
+            Intent settingsIntent = new Intent(this, SettingsActivity.class);
+            startActivity(settingsIntent);
+        }
         return super.onOptionsItemSelected(item);
     }
 
