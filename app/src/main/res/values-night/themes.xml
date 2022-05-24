@@ -17,4 +17,12 @@
     <style name="Theme.DroidCafe.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" >
         <item name="android:textColor">@color/white</item>
     </style>
+
+    <style name="Theme.DroidCafe.Preference" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="preferenceTheme">@style/Theme.DroidCafe.PreferenceScreen</item>
+    </style>
+
+    <style name="Theme.DroidCafe.PreferenceScreen" parent="PreferenceThemeOverlay.v14.Material">
+        <item name="android:tint">@color/white</item>
+    </style>
 </resources>

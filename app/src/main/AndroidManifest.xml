@@ -32,8 +32,9 @@
         <activity
             android:name=".SettingsActivity"
             android:exported="false"
-            android:label="@string/title_activity_settings"
-            android:parentActivityName=".MainActivity"/>
+            android:label="@string/action_settings"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.DroidCafe.Preference"/>
     </application>
 
 </manifest>

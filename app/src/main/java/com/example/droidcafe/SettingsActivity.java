@@ -31,7 +31,7 @@ public class SettingsActivity extends AppCompatActivity implements
                     @Override
                     public void onBackStackChanged() {
                         if (getSupportFragmentManager().getBackStackEntryCount() == 0) {
-                            setTitle(R.string.title_activity_settings);
+                            setTitle(R.string.action_settings);
                         }
                     }
                 });
