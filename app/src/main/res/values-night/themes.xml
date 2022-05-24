@@ -20,9 +20,11 @@
 
     <style name="Theme.DroidCafe.Preference" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <item name="preferenceTheme">@style/Theme.DroidCafe.PreferenceScreen</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.DroidCafe.PreferenceScreen" parent="PreferenceThemeOverlay.v14.Material">
-        <item name="android:tint">@color/white</item>
+    <style name="Theme.DroidCafe.PreferenceScreen" parent="PreferenceThemeOverlay">
+        <item name="android:tint">@color/black</item>
     </style>
 </resources>
