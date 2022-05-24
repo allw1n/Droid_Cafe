@@ -11,4 +11,13 @@
         app:summaryOn="@string/attachment_summary_on"
         app:title="@string/attachment_title" />
 
+    <ListPreference
+        app:title="@string/sync_frequency_title"
+        app:dependency="sync"
+        app:key="frequency"
+        app:defaultValue="15"
+        app:entries="@array/sync_frequency_titles"
+        app:entryValues="@array/sync_frequency_values"
+        app:useSimpleSummaryProvider="true" />
+
 </PreferenceScreen>

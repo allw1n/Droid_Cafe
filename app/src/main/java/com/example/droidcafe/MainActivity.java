@@ -11,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ShareCompat;
+import androidx.preference.PreferenceManager;
 
 import android.util.Log;
 import android.view.ContextMenu;
@@ -89,6 +90,10 @@ public class MainActivity extends AppCompatActivity {
         if (editDonutDescription.getText() != null) {
             setDescription();
         }
+
+        PreferenceManager.setDefaultValues(this, R.xml.messages_preferences, false);
+
+        PreferenceManager.setDefaultValues(this, R.xml.sync_preferences, false);
     }
 
     @Override
